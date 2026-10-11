@@ -1,0 +1,18 @@
+[project]
+name = "document-extractor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ollama>=0.6.3",
+    "pymupdf>=1.28.2",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.65.0",
+    "torchvision>=0.29.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
